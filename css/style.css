@@ -1,7 +1,9 @@
 * { font-family: Hobo Std;
 
 }
-
-h1, h2, h3, h4, p {
+.lab{
+	text-align: center;
+}
+h1, h2, h3{
 	color: white;
 }

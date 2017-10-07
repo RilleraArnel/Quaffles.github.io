@@ -13,7 +13,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
   <title>Quaffles</title>
 </head>
-<body style=" margin-bottom: 50px; margin-top: 25px; margin-left: 25px; margin-right: 25px; background-image: url(img/w2.jpg); background-size: 100% 100%; ">
+<body style=" margin-bottom: 50px; margin-top: 25px; margin-left: 25px; margin-right: 25px; background-image: url(img/w2.jpg); background-size: 100% 100%;">
 <div class="container">
 <div class="header">
   <div class="row">
@@ -57,6 +57,7 @@
         
 
         <h4>Drinks</h4>
+        <div class="dropdown">
         <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Drinks Menu
         <span class="caret"></span></button>
         <ul class="dropdown-menu" role="menu2" aria-labelledby="menu2">
@@ -64,6 +65,7 @@
           <li role="presentation"><img src="img/d2.jpg" width="100px" height="100px">Drinks 2</li>
           <li role="presentation"><img src="img/d3.jpg" width="100px" height="100px">Drinks 3</li>
         </ul>
+        </div>
         <h4>Cakes</h4>
         <div class="dropdown">
           <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Desserts Menu
@@ -73,7 +75,7 @@
             <li role="presentation"><img src="img/c2.jpg" width="100px" height="100px">Cake 2</li>
             <li role="presentation"><img src="img/c3.jpg" width="100px" height="100px">Cake 3</li>
           </ul>
-
+          </div>
         <h4>Foods</h4>
         <div class="dropdown">
           <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Rice Menu
@@ -83,7 +85,7 @@
             <li role="presentation"><img src="img/r2.jpg" width="100px" height="100px">Rice bowl</li>
             <li role="presentation"><img src="img/r3.jpg" width="100px" height="100px">Fried rice</li>
           </ul>
-
+          </div>
         <h4>Coffee</h4>
         <div class="dropdown">
         <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Coffee Menu
@@ -95,15 +97,13 @@
         </ul>
         </div>
 
-        <div class="container">
-  <h2>Available games</h2>
-  <a href="#">Offline Games <span class="badge">35</span></a><br>
-  <a href="#">Online Games <span class="badge">10</span></a><br>
-  <a href="#">Updates <span class="badge">2</span></a>
-</div>
+      
+          <h2>Available games</h2>
+          <a href="#">Offline Games <span class="badge">35</span></a><br>
+          <a href="#">Online Games <span class="badge">10</span></a><br>
+          <a href="#">Updates <span class="badge">2</span></a>
         </div>
-        </div>
-        </div>   
+      
 
       <div class="col-sm-8" align="center">
           <div id="myCarousel" class="carousel slide" data-ride="carousel" style="width: 500px; height:506px; border-style: double; border-color: brown">
@@ -144,17 +144,18 @@
             </a>
           </div>
           
+          <br>
           <div class="row">
             <div class="col-sm-4">
-              <div class="form-group">
-                <label for="comment">Request:</label>
+              <div class="form-group"> 
+                <label for="comment" style="color: white; border-style: double; border-color: brown; background-color: black ">Request:</label>
                 <textarea class="form-control" rows="5" id="comment"></textarea>
             </div>
             </div>
             <div class="col-sm-8">
               <div class="form-group">
-                <label for="comment">Comment:</label>
-                <textarea class="form-control" rows="5" id="comment"></textarea>
+                <label for="comment" style="color: red; border-style: double; border-color: brown; background-color: black ">Comment:</label>
+                <textarea class="form-control" rows="5" id="comment" style="display: inline;"></textarea>
               </div>
             </div>
         </div>
@@ -196,11 +197,28 @@
             <div class="Extend text-center" style="color: white; padding-top:75px">
               <button type="button" class="btn-lg btn-danger">Quit<br>& Log-Out</button>
             </div>
-          </div>
+<<<<<<< HEAD
+=======
         </div>
       </div>
     </div>
   </div>
+
+
+
+              <div class="container" align="center">
+  <h3>Contact Us</h3>   
+  <p>Email us in yahoo:
+    <a href="#"><span class="glyphicon glyphicon-envelope"></span></a>
+  </p>
+  <p>Search us in Facebook: Quaffles
+    <button type="button" class="btn btn-info">
+      <span class="glyphicon glyphicon-search"></span> Search
+    </button>
+  </p>     
+</div>
+>>>>>>> f1239c1ef3b176c6eda3f2e37e6dbe91ed53a306
+          </div>
 
 <div class="footer">
 <div class="row" style="border-style: solid; background-color: black">
@@ -209,6 +227,7 @@
   </div>
   <div class="col-sm-4" style=" text-align:center">
 <h4>QUAF<font color= "red">FLES®</font></h4>
+<img src="img/blade.jpg" alt="" style="height: 45px; width: 350px; opacity: 0.4">
   </div>
   <div class="col-sm-4" style="text-align:center; color: red; padding-top: 10px">
    BLAZING FAST 100 MBPS <br> INTERNET SPEED!
